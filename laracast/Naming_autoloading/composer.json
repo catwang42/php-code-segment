@@ -1,0 +1,13 @@
+{
+
+	"autoload":{
+
+		"psr-4": {
+            // specify the root namespace response to your products/ project 
+            // specifh what directory should be associated to tha root namespace 
+            // any class placed in the directory will have this root namespace 
+
+			"Acme\\":"src"
+		}
+	}
+}
