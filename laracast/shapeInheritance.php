@@ -39,7 +39,7 @@ class Triangle extends Shape{
 	}
 }
 
-class Circle extends Shaoe{
+class Circle extends Shape{
 	protected $radius = 5;
 
 	public function getArea()
