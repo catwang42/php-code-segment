@@ -20,8 +20,6 @@ class BankAccounts{
 		});
 
 	}
-
-
 	
 
 }
@@ -73,8 +71,9 @@ $accounts = [
 $accounts = new BankAccounts($accounts);
 
 $saving = $accounts->filterBy('saving');
-
 var_dump($saving);
+
+
 
 
  ?>

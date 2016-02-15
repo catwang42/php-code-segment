@@ -1,4 +1,4 @@
-<?php 
+s<?php 
 
 //showcase of enclosing, abstract class, abstract funciton 
 
@@ -7,7 +7,7 @@ abstract class Shape {
 	protected $color;
 	public function __construct($color = 'red')
 	{
-		$this->color = $color
+		$this->color = $color;
 	}
 
 	public function getColor()
@@ -49,7 +49,7 @@ class Circle extends Shape{
 }
 
 echo (new Circle())->getColor();
-(new Circle)->getArea();
+echo (new Triangle)->getArea();
 
 ?>
 
